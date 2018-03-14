@@ -1,0 +1,12 @@
+<view>
+
+  <view class='movie' wx:key='{item._id}' wx:for="{{msg}}">
+
+
+    <text class='cinema'>{{item.cinema}}</text>
+    <text class='addr'>{{item.addr}}</text>
+    <text class='phone'>{{item.phone}}</text>
+    <text class='addr'>{{item.url}}</text>
+
+  </view>
+</view>

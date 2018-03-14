@@ -1,0 +1,32 @@
+.city{
+  display:inline-block;
+  width: 6em;
+  padding:0.3em;
+}
+.host{
+  display:inline-block;
+  width: 6em;
+  padding:0.3em;
+}
+.movie{
+  display: block;
+  height: 8em;
+  width:20em;
+}
+.img{
+ float: left;
+  height: 7em;
+  width: 7em;
+}
+.text{
+  display: block;
+  font-size: 30rpx;
+}
+button{
+  background-color: red;
+  width: 140rpx;
+  height: 74rpx;
+  margin-top: -36rpx;
+  float: right;
+  margin-right: 14rpx;
+}

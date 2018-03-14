@@ -1,0 +1,14 @@
+.movie{
+  margin-top: 1em;
+}
+.cinema{
+display: block;
+}
+.addr{
+  display: block;
+  font-size: 0.8em;
+}
+.phone{
+  display: block;
+   font-size: 0.6em;
+}

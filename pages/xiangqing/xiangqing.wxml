@@ -1,0 +1,19 @@
+<view>
+  <text class='nav'>详情</text>
+  <view class='movie' wx:key='{{msg._id}}'>
+    <image class='img' src='http://127.0.0.1:4000{{msg.maxImg}}'></image>
+    <text class='text'>{{msg.Chinese}}</text>
+    <text class='text'>{{msg.English}}</text>
+    <text class='text'>{{msg.type}}</text>
+    <text class='text'>{{msg.area}}</text>
+    <text class='text'>{{msg.years}}</text>
+    <button>想看</button>
+    <button>评分</button>
+    <view class='banner'>
+      <text class='text'>{{msg.introduction}}</text>
+    </view>
+    <text class='vc'>演职人员</text>
+    <image class='img' id='ss' wx:key='{{index}}' wx:for='{{msg.actor}}' src='http://127.0.0.1:4000{{item.img}}'></image>
+     <text> class='img' id='ss' wx:key='{{index}}' wx:for='{{msg.actor}}' src='http://127.0.0.1:4000{{item.name}}'></text>
+  </view>
+</view>

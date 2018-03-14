@@ -1,0 +1,10 @@
+<view class='container'>
+  <text>这是登录</text>
+  <input placeholder="手机号：" bindblur="phoneInput" id='phone' name='phone' auto-focus/>
+  <input placeholder="密码:" bindblur="pwdInput" id='pwd' name='pwd' auto-focus/>
+  <view>
+    <button class='btn' bindtap='login'>登录</button>
+    <button class='btn' bindtap='reg'>注册</button>
+  </view>
+ 
+</view>

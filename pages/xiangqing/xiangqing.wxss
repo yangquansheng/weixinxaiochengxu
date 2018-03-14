@@ -1,0 +1,55 @@
+ .city{
+  display:inline-block;
+  width: 6em;
+  padding:0.3em;
+}
+.nav{
+  text-align: center;
+  display: block;
+}
+.host{
+  display:inline-block;
+  width: 6em;
+  padding:0.3em;
+}
+.movie{
+  display: block;
+  height: 10em;
+  width:20em;
+  background-color: #826c57;
+}
+.img{
+ float: left;
+  height: 7em;
+  width: 7em;
+}
+.text{
+  display: block;
+  font-size: 30rpx;
+}
+button{
+  float: left;
+  margin-left: -90rpx;
+  margin-right: 190rpx;
+  margin-top: 84rpx;
+  width: 143rpx;
+  height: 66rpx;
+  font-size: 30rpx;
+  
+} 
+.banner{
+  float: left;
+   margin-top: 30rpx;
+}
+.vc{
+  margin-top: 10rpx;
+  float: left;
+  font-size: 55rpx;
+  color: red;
+
+}
+#ss{
+  float: left;
+  height: 3.5em;
+  width: 3.5em;
+}

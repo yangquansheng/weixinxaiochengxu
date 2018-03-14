@@ -1,0 +1,14 @@
+<view class="container">
+
+   <!--  <text>注册</text>
+  <button bindtap='add'>+</button>
+  <text>{{sum}}</text>
+  <button bindtap='red'>-</button> -->
+  <view>
+    <form>
+      <input placeholder="手机号：" bindblur="phoneInput" id='phone' name='phone' auto-focus/>
+      <input placeholder="密码:" bindblur ="pwdInput" id='pwd' name='pwd' auto-focus/>
+      <button type='submit' bindtap='formSubmit'>注册</button>
+    </form>
+  </view>
+</view>

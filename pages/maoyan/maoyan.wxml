@@ -1,0 +1,17 @@
+<view>
+  <view>
+    <text class='city'>成都</text>
+    <text class='host'>热映</text>
+    <text class='host'>待映</text>
+  </view>
+   <view class='movie' wx:key='{item._id}' wx:for="{{msg}}">
+    <image id='{{item._id}}' bindtap='btn' class='img' src='http://127.0.0.1:4000{{item.maxImg}}'></image>
+    
+    <text class='text'>{{item.type}}</text>
+    <text class='text'>{{item.area}}</text>
+    <text class='text'>{{item.Chinese}}</text>
+    <text class='text'>{{item.movie_year}}</text>
+    <button bindtap='add'>购票</button>
+    
+  </view> 
+</view>

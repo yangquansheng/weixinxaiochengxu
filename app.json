@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/maoyan/maoyan",
+    "pages/wxapp/wxapp",
+    "pages/xiangqing/xiangqing",
+    "pages/yingyuan/yingyuan"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#3cc51f",
+    "color": "#999",
+    "backgroundColor": "#f8f8f8",
+    "list": [
+      {
+        "text": "电影",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "影院",
+        "pagePath": "pages/maoyan/maoyan"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/wxapp/wxapp"
+      }
+    ]
+  }
+}
